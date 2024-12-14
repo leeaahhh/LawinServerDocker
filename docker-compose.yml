@@ -5,7 +5,7 @@ services:
     build: .
     ports:
       - "3551:3551"
-      - "79:80"
+      - "90:80"
     volumes:
       - ./profiles:/app/profiles
       - ./ClientSettings:/app/ClientSettings
