@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  lawinserver:
+    build: .
+    ports:
+      - "3551:3551"
+      - "79:80"
+    volumes:
+      - ./profiles:/app/profiles
+      - ./ClientSettings:/app/ClientSettings
+    environment:
+      - PORT=3551
