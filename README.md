@@ -1,7 +1,7 @@
 <div align=center>
   <img src="https://i.ibb.co/Bcj3VXm/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3932373733393930313534.png" alt="LawinServer Logo">
 
-  ### LawinServer is a private server that supports all Fortnite versions!
+  ### LawinServerDocker is a private server that supports all Fortnite versions!
   
 </div>
 <br>
@@ -74,8 +74,7 @@
 - Joining gameservers using the matchmaker - check out the GameServer seciton in config.ini for more details
 ##### * Included in the [LawinServer Addon](https://github.com/PRO100KatYT/LawinServerAddon). To install it, merge its `public` folder with the one in your LawinServer folder. [(Direct download link)](https://github.com/PRO100KatYT/LawinServerAddon/archive/refs/heads/main.zip)
 
-## How to host/use LawinServer
-1) Install [NodeJS](https://nodejs.org/en/)
-2) Run "install_packages.bat" (This file isn't required after the packages are installed.)
-3) Run "start.bat", It should say "Started listening on port 3551"
-4) Use something to redirect the fortnite servers to localhost:3551 (Which could be fiddler, ssl bypass that redirects servers, etc...)
+## How to host/use LawinServerDocker
+1) Install [Docker](https://www.docker.com/)
+2) Run "docker compose up --build" in your terminal.
+3) Use something to redirect the fortnite servers to localhost:3551 (Which could be fiddler, ssl bypass that redirects servers, etc...)
